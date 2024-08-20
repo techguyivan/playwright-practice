@@ -1,0 +1,25 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="19.390259">
+<testsuite name="tests\uiComponents.spec.ts" timestamp="2024-08-19T01:08:52.587Z" hostname="dev" tests="1" failures="0" skipped="0" time="8.181" errors="0">
+<testcase name="Form Layouts page @block › Radio buttons" classname="tests\uiComponents.spec.ts" time="8.181">
+<system-out>
+<![CDATA[A snapshot doesn't exist at C:\Users\Ivan\Desktop\Playwright\GitRepo\pw-practice-app\tests\uiComponents.spec.ts-snapshots\Form-Layouts-page-block-Radio-buttons-1-dev-win32.png, writing actual.
+
+[[ATTACHMENT|tests-uiComponents-Form-Layouts-page-block-Radio-buttons-dev\Form-Layouts-page-block-Radio-buttons-1-actual.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\uiComponents.spec.ts" timestamp="2024-08-19T01:08:52.587Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.614" errors="0">
+<testcase name="Form Layouts page @block › Radio buttons" classname="tests\uiComponents.spec.ts" time="7.614">
+</testcase>
+</testsuite>
+<testsuite name="tests\uiComponents.spec.ts" timestamp="2024-08-19T01:08:52.587Z" hostname="firefox" tests="1" failures="0" skipped="0" time="14.383" errors="0">
+<testcase name="Form Layouts page @block › Radio buttons" classname="tests\uiComponents.spec.ts" time="14.383">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|tests-uiComponents-Form-Layouts-page-block-Radio-buttons-firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,233 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Ivan\\Desktop\\Playwright\\GitRepo\\pw-practice-app\\playwright.config.ts",
+    "rootDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 60000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "test-results/jsonReport.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junitReport.xml"
+        }
+      ],
+      [
+        "html",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "dev",
+        "name": "dev",
+        "testDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 40000
+      },
+      {
+        "outputDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 40000
+      },
+      {
+        "outputDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 40000
+      },
+      {
+        "outputDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "pageObjectFullScreen",
+        "name": "pageObjectFullScreen",
+        "testDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app",
+        "testIgnore": [],
+        "testMatch": [
+          "usePageObjects.spec.ts"
+        ],
+        "timeout": 40000
+      },
+      {
+        "outputDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Ivan/Desktop/Playwright/GitRepo/pw-practice-app",
+        "testIgnore": [],
+        "testMatch": [
+          "testMobile.spec.ts"
+        ],
+        "timeout": 40000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "all",
+    "version": "1.42.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\uiComponents.spec.ts",
+      "file": "tests/uiComponents.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Form Layouts page @block",
+          "file": "tests/uiComponents.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Radio buttons",
+              "ok": true,
+              "tags": [
+                "block"
+              ],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "dev",
+                  "projectName": "dev",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8181,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "A snapshot doesn't exist at C:\\Users\\Ivan\\Desktop\\Playwright\\GitRepo\\pw-practice-app\\tests\\uiComponents.spec.ts-snapshots\\Form-Layouts-page-block-Radio-buttons-1-dev-win32.png, writing actual.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T01:08:54.183Z",
+                      "attachments": [
+                        {
+                          "name": "Form-Layouts-page-block-Radio-buttons-1-actual.png",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Ivan\\Desktop\\Playwright\\GitRepo\\pw-practice-app\\test-results\\tests-uiComponents-Form-Layouts-page-block-Radio-buttons-dev\\Form-Layouts-page-block-Radio-buttons-1-actual.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7614,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T01:08:54.203Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 14383,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-19T01:08:54.287Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\Ivan\\Desktop\\Playwright\\GitRepo\\pw-practice-app\\test-results\\tests-uiComponents-Form-Layouts-page-block-Radio-buttons-firefox\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d18a920e34b47c7285ce-c3fdf63a5e3dde59de0b",
+              "file": "tests/uiComponents.spec.ts",
+              "line": 36,
+              "column": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-08-19T01:08:48.411Z",
+    "duration": 23557.704,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
